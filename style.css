@@ -413,7 +413,7 @@ body{
 }
 .container .cloud:first-child::before{
     position: absolute;
-    content: 'Ngoan nghe chưa';
+    content: 'Luôn cười nhé';
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
@@ -425,7 +425,7 @@ body{
 
 .container .cloud:last-child::before{
     position: absolute;
-    content: 'Sinh nhật Dũng nè!!!';
+    content: 'Sinh nhật Hằng nè!!!';
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 10px;
@@ -545,9 +545,15 @@ span{
     width: 350px;
     transition: all 1s;
     animation: paperCannons 2s forwards;
-    animation-delay: 7s;
+    animation-delay: 5s;
     opacity: 0;
     visibility: hidden;
+}
+.audio {
+    position: absolute;
+    bottom : 0px;
+    display : center;
+    z-index: 100000;
 }
 @keyframes paperCannons{
     0%{
